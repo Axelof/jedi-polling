@@ -1,0 +1,33 @@
+{
+  "name": "jedi-polling",
+  "version": "0.9.3",
+  "description": "HTTP LongPolling server for Jedi's VKMA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index",
+    "start": "node -r dotenv/config src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelof/jedi-polling.git"
+  },
+  "author": {
+    "name": "Daniil Markelov",
+    "coauthor": "Dzafar Gadziev (axelof)"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axelof/jedi-polling/issues"
+  },
+  "homepage": "https://github.com/axelof/jedi-polling",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pino": "^8.7.0",
+    "pino-pretty": "^9.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
